@@ -9,3 +9,6 @@ Nesse projeto desenvolvemos um sistema de finanças pessoais.
 
 ## gallery
 Nesse projeto desenvolvemos uma galeria de fotos, utilizando o Firebase também.
+
+## rpg
+Nesse projeto desenvolvemos um mini jogo rpg, onde você pode mover seu personagem mas não pode ultrapassar os obstáculos estabelecidos.
