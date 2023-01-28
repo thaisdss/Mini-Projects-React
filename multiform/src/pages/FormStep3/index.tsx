@@ -34,7 +34,7 @@ export function FormStep3() {
 
     const handleNextStep = () => {
         if(state.email != "" && state.github != "") {
-            console.log(state);
+            navigate("/finally")
         }else{
             alert("Preencha todos os dados!");
         }

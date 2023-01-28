@@ -41,6 +41,14 @@ export function Theme({ children }: Props) {
                         path="/step3"
                         active={state.currentStep === 3}
                         />
+
+                        <SidebarItem 
+                        title="Finalização"
+                        description="Conclusão do cadastro"
+                        icon="final"
+                        path="/finally"
+                        active={state.currentStep === 4}
+                        />
                     </C.Sidebar>
                     <C.Page>
                         { children }
