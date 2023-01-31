@@ -1,5 +1,5 @@
 # Mini-Projects-React
-Esse repositório conta mini-projetos desenvolvidos em ReactJS, com outras tecnologias.
+Esse repositório conta com vários mini-projetos desenvolvidos em ReactJS, com outras tecnologias.
 
 ## todo
 Nesse projeto desenvolvemos um Todo-List.
