@@ -35,4 +35,4 @@ Esse projeto foi criado através da playlist [Desafio 5em5 React + TypeScript](h
 ## movies_lib
 Nesse projeto desenvolvemos uma biblioteca de filmes utilizando a API do TMBD.
 
-Esse projeto foi criado através da playlist do curso de React do [Matheus Battisti](https://github.com/matheusbattisti)
+Esse projeto foi criado através da playlist do curso de React do [Matheus Battisti](https://github.com/matheusbattisti).
