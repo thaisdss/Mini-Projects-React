@@ -11,7 +11,7 @@ export function Search() {
     const [ searchParams ] = useSearchParams();
 
     const query = searchParams.get("q");
-    const moviesUrl = `${searchURL}?${apiKey}&query=${query}&${language}`;
+    const moviesUrl = `${searchURL}/?${apiKey}&query=${query}&${language}`;
     const movies = useGetMovies(moviesUrl);
 
     return(
