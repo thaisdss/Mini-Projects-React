@@ -31,3 +31,8 @@ Esse projeto foi criado através da playlist [Desafio 5em5 React + TypeScript](h
 Nesse projeto desenvolvemos um formulário multi-etapas.
 
 Esse projeto foi criado através da playlist [Desafio 5em5 React + TypeScript](https://www.youtube.com/playlist?list=PL_kvSTSEFm2CwHCtvTk0llGDvM0L2jx3O) do [Bonieky Lacerda](https://github.com/bonieky).
+
+## movies_lib
+Nesse projeto desenvolvemos uma biblioteca de filmes utilizando a API do TMBD.
+
+Esse projeto foi criado através da playlist do curso de React do [Matheus Battisti](https://github.com/matheusbattisti)
