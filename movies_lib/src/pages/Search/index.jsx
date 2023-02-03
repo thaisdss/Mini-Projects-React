@@ -12,7 +12,7 @@ export function Search() {
 
     const query = searchParams.get("q");
     const moviesUrl = `${searchURL}?${apiKey}&query=${query}&${language}`;
-    const movies = useGetMovies(moviesUrl);
+    const { movies, totalPages } = useGetMovies(moviesUrl);
 
     return(
         <div className="container">
@@ -21,7 +21,8 @@ export function Search() {
             </h2>
 
             <div className="movies-container">
-                {movies.length === 0 && <p>Carregando...</p> }
+                {movies.length === 0 && totalPages !== 0 && <p>Carregando...</p> }
+                {totalPages === 0 && <p>Filme não encontrado.</p> }
                 {movies.length > 0 && 
                     movies.map((movie) => <MovieCard key={movie.id} movie={movie} />
                 )}

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function useGetMovie(url) {
     const [movie, setMovie] = useState([]);
@@ -10,7 +10,9 @@ export function useGetMovie(url) {
         setMovie(data.data);
     }
 
-    getMovie()
+    useEffect(() => {
+        getMovie()
+    }, [])
 
     return movie;
 }

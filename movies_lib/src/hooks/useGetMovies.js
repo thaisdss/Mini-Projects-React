@@ -1,16 +1,20 @@
 import axios from "axios";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function useGetMovies(url) {
     const [movies, setMovies] = useState([]);
+    const [totalPages, setTotalPages] = useState();
 
     const getMovies = async () => {
         const data = await axios.get(url);
 
-        setMovies(data.data.results);
+        setMovies(data.data.results)
+        setTotalPages(data.data.total_pages)
     }
 
-    getMovies()
+    useEffect(() => {
+        getMovies()
+    }, [url])
 
-    return movies;
+    return { movies, totalPages };
 }
