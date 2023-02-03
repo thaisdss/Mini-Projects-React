@@ -36,3 +36,8 @@ Esse projeto foi criado através da playlist [Desafio 5em5 React + TypeScript](h
 Nesse projeto desenvolvemos uma biblioteca de filmes utilizando a API do TMBD.
 
 Esse projeto foi criado através da playlist do curso de React do [Matheus Battisti](https://github.com/matheusbattisti).
+
+## countdown
+Nesse projeto desenvolvemos uma contagem regressiva para o ano novo.
+
+Esse projeto foi criado através da playlist do curso de React do [Matheus Battisti](https://github.com/matheusbattisti).
