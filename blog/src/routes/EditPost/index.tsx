@@ -34,15 +34,7 @@ export function EditPost() {
         alert(message);
         navigate("/");
     }
-
-    useEffect(() => {
-        const inputTitle = document.getElementById("title") as HTMLInputElement;
-        const inputBody = document.getElementById("body") as HTMLTextAreaElement;
-
-        inputTitle.value = `${post?.title}`;
-        inputBody.value = `${post?.body}`;
-    }, [])
-
+    
     return(
         <C.Container>
             <h2>Editando: {post?.title}</h2>
@@ -54,6 +46,7 @@ export function EditPost() {
                         name="title" 
                         id="title" 
                         placeholder="Digite o título"
+                        value={post?.title}
                         onChange={(e) => setTitle(e.target.value)}
                         />
                 </C.FormControl>
@@ -63,6 +56,7 @@ export function EditPost() {
                         name="body" 
                         id="body" 
                         placeholder="Digite o conteúdo"
+                        value={post?.body}
                         onChange={(e) => setBody(e.target.value)}
                         ></textarea>
                 </C.FormControl>

@@ -2,7 +2,6 @@ import { useGetPosts } from "../../hooks/useGetPosts";
 import { useNavigate } from "react-router-dom";
 import { api } from "../../services/api";
 import * as C from "./styles";
-import { useState } from "react"
 
 export function Manage() {
     const navigate = useNavigate();
@@ -19,8 +18,8 @@ export function Manage() {
 
                 alert("Post excluído com sucesso!");
 
-                const element = document.getElementById(`${id}`) as HTMLElement;
-                element.style.display = "none";
+                const post = document.getElementById(`${id}`) as HTMLElement;
+                post.style.display = "none";
                 
                 
             }
