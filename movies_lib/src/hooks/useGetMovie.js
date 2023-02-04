@@ -5,9 +5,12 @@ export function useGetMovie(url) {
     const [movie, setMovie] = useState([]);
 
     const getMovie = async () => {
-        const data = await axios.get(url);
+        try{
+            const data = await axios.get(url);
 
-        setMovie(data.data);
+            setMovie(data.data);
+        }
+        catch(err) { console.log(err) }
     }
 
     useEffect(() => {

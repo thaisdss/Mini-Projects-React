@@ -6,10 +6,13 @@ export function useGetMovies(url) {
     const [totalPages, setTotalPages] = useState();
 
     const getMovies = async () => {
-        const data = await axios.get(url);
+        try{
+            const data = await axios.get(url);
 
-        setMovies(data.data.results)
-        setTotalPages(data.data.total_pages)
+            setMovies(data.data.results)
+            setTotalPages(data.data.total_pages)
+        }
+        catch(err) { console.log(err) }
     }
 
     useEffect(() => {
