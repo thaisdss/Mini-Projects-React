@@ -46,3 +46,8 @@ Esse projeto foi criado através da playlist do curso de React do [Matheus Batti
 Nesse projeto desenvolvemos um blog utilizando axios para fazer requisições para a api do [{JSON} Placeholder](https://jsonplaceholder.typicode.com/).
 
 Esse projeto foi criado através da playlist do curso de React do [Matheus Battisti](https://github.com/matheusbattisti).
+
+## github_finder
+Nesse projeto desenvolvemos uma aplicação que consome a api do GitHub, mostrando o usuário solicitado e os seus melhores projetos.
+
+Esse projeto foi criado através da playlist do curso de React do [Matheus Battisti](https://github.com/matheusbattisti).
