@@ -13,7 +13,7 @@ function App() {
   const [data, setData] = useState<Form>({
     name: "",
     email: "",
-    review: "",
+    review: "neutral",
     comment: "",
   });
 
