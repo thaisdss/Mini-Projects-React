@@ -22,7 +22,7 @@ export function Repo({ name, language, html_url, stargazers_count, forks_count }
                     <span>{forks_count}</span>
                 </C.Stats_Container>
             </C.Stats>
-            <Link to={html_url} className="to-code">
+            <Link to={html_url} target={"_blank"} className="to-code">
                 Ver código
                 <GoRepo />
             </Link>
