@@ -56,3 +56,8 @@ Esse projeto foi criado através da playlist do curso de React do [Matheus Batti
 Nesse projeto desenvolvemos um formulário multi-etapas.
 
 Esse projeto foi criado através da playlist do curso de React do [Matheus Battisti](https://github.com/matheusbattisti).
+
+## quiz
+Nesse projeto desenvolvemos um quiz de programação.
+
+Esse projeto foi criado através da playlist do curso de React do [Matheus Battisti](https://github.com/matheusbattisti).
