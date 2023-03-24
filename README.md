@@ -61,3 +61,8 @@ Esse projeto foi criado através da playlist do curso de React do [Matheus Batti
 Nesse projeto desenvolvemos um quiz de programação.
 
 Esse projeto foi criado através da playlist do curso de React do [Matheus Battisti](https://github.com/matheusbattisti).
+
+## themeswitcher
+Nesse projeto desenvolvemos uma página onde é possível ao usuário trocar o tema, para isso utilizamos styled-components.
+
+Esse projeto foi criado no [Code/Drops #16](https://youtu.be/ngVU74daJ8Y) da [Rocketseat](https://www.rocketseat.com.br/).
