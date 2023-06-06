@@ -20,6 +20,14 @@ export const Container = styled.div`
     p{
         margin: 10px 0;
     }
+
+    input, select{
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        width: 100%;
+    }
 `;
 
 export const TodoList = styled.div`
