@@ -9,7 +9,7 @@ body{
   background-color: #f4f4f4;
   padding: 30px;
   color: #333;
-  background-image: url("bg.jpg");
+  background-image: url("../public/bg.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
