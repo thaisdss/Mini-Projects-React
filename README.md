@@ -68,3 +68,8 @@ Esse projeto foi criado através da playlist do curso de React do [Matheus Batti
 Nesse projeto desenvolvemos uma página onde é possível ao usuário trocar o tema, para isso utilizamos styled-components.
 
 Esse projeto foi criado no [Code/Drops #16](https://youtu.be/ngVU74daJ8Y) da [Rocketseat](https://www.rocketseat.com.br/).
+
+## shadcnui-landing-page
+Nesse projeto desenvolvemos uma landing page utilizando o [Shadcn UI](https://ui.shadcn.com/) e o [Tailwind CSS](https://tailwindcss.com/).
+
+Esse projeto foi criado através do desafio da plataforma [Codante.IO](https://codante.io/mini-projetos?ordenacao=popular).
