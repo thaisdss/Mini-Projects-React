@@ -73,3 +73,9 @@ Esse projeto foi criado no [Code/Drops #16](https://youtu.be/ngVU74daJ8Y) da [Ro
 Nesse projeto desenvolvemos uma landing page utilizando o [Shadcn UI](https://ui.shadcn.com/) e o [Tailwind CSS](https://tailwindcss.com/).
 
 Esse projeto foi criado através do desafio da plataforma [Codante.IO](https://codante.io/mini-projetos?ordenacao=popular).
+
+## shopping-list
+Nesse projeto desenvolvemos uma plataforma onde é possível fazer uma lista de compras utilizando o [Shadcn UI](https://ui.shadcn.com/) e o [Tailwind CSS](https://tailwindcss.com/).
+
+Esse projeto foi criado através do desafio da plataforma [Codante.IO](https://codante.io/mini-projetos?ordenacao=popular).
+
